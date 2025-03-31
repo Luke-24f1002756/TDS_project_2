@@ -1262,7 +1262,7 @@ def ga2_q3(params: Dict) -> str:
         logger.info(f"Publishing to GitHub Pages for {owner}/{repo}")
         
         # Get email from params
-        email = params.get("email", "23f2005593@ds.study.iitm.ac.in")
+        email = params.get("email", "24f1002756@ds.study.iitm.ac.in")
         
         # Create HTML content as a raw string (using triple quotes to preserve formatting)
         email_content = f'''<!DOCTYPE html>
